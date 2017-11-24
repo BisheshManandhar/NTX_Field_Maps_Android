@@ -1,0 +1,149 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="11dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop ="13dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#FFFFFF"
+        android:text="North Texas Soccer Complexes"
+        android:textSize="17dp"
+        android:textColor="#FF0000"
+        android:typeface="sans"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/header" />
+
+    <Button
+        android:id="@+id/bobWisemen"
+        android:layout_width="fill_parent"
+        android:layout_height="36sp"
+        android:layout_marginTop="13dp"
+        android:onClick="onButtonClick"
+        android:text="Bob Wisemen Soccer Complex (Lake Park)"
+        android:gravity="left|center_vertical"
+        android:textSize="13sp"
+        android:layout_below="@+id/header"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/carpenter"
+        android:layout_width="fill_parent"
+        android:layout_height="36sp"
+        android:layout_alignStart="@+id/bobWisemen"
+        android:layout_below="@+id/bobWisemen"
+        android:onClick="onButtonCarpenterClick"
+        android:text="Carpenter Park"
+        android:gravity="left|center_vertical"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/chinnchapel"
+        android:layout_width="fill_parent"
+        android:gravity="left|center_vertical"
+        android:layout_height="36sp"
+        android:text="Chinn Chapel Soccer Complex"
+        android:textSize="14sp"
+        android:layout_below="@+id/carpenter"
+        android:layout_alignStart="@+id/carpenter" />
+
+    <Button
+        android:id="@+id/mcInnish"
+        android:layout_width="fill_parent"
+        android:gravity="left|center_vertical"
+        android:layout_height="36sp"
+        android:textSize="14sp"
+        android:text="McInnish Sports Complex"
+        android:layout_below="@+id/chinnchapel"
+        android:layout_alignStart="@+id/chinnchapel" />
+
+    <Button
+        android:id="@+id/moneyGram"
+        android:layout_width="fill_parent"
+        android:gravity="left|center_vertical"
+        android:layout_height="36sp"
+        android:layout_alignStart="@+id/mcInnish"
+        android:layout_below="@+id/mcInnish"
+        android:textSize="14sp"
+        android:text="MoneyGram Soccer Park" />
+
+    <Button
+        android:id="@+id/richland"
+        android:layout_width="fill_parent"
+        android:gravity="left|center_vertical"
+        android:layout_height="36sp"
+        android:layout_alignStart="@+id/moneyGram"
+        android:layout_below="@+id/moneyGram"
+        android:textSize="14sp"
+        android:text="Richland College" />
+
+    <Button
+        android:id="@+id/russellCreek"
+        android:layout_width="fill_parent"
+        android:gravity="left|center_vertical"
+        android:layout_height="36sp"
+        android:layout_alignStart="@+id/richland"
+        android:layout_below="@+id/richland"
+        android:textSize="14sp"
+        android:text="Russell Creek Park" />
+
+    <Button
+        android:id="@+id/colony"
+        android:layout_width="fill_parent"
+        android:gravity="left|center_vertical"
+        android:layout_height="36sp"
+        android:layout_alignStart="@+id/russellCreek"
+        android:layout_below="@+id/russellCreek"
+        android:textSize="14sp"
+        android:text="The Colony Five Star Complex" />
+
+    <Button
+        android:id="@+id/pitPlus"
+        android:layout_width="fill_parent"
+        android:gravity="left|center_vertical"
+        android:layout_height="36sp"
+        android:layout_alignStart="@+id/colony"
+        android:layout_below="@+id/colony"
+        android:textSize="14sp"
+        android:text="The Pit Plus Soccer Complex" />
+
+    <Button
+        android:id="@+id/railroad"
+        android:layout_width="fill_parent"
+        android:gravity="left|center_vertical"
+        android:layout_height="36sp"
+        android:layout_alignStart="@+id/pitPlus"
+        android:layout_below="@+id/pitPlus"
+        android:textSize="14sp"
+        android:text="Toyota of Lewisville Railroad Park" />
+
+    <Button
+        android:id="@+id/fcDallas"
+        android:layout_width="fill_parent"
+        android:gravity="left|center_vertical"
+        android:layout_height="36sp"
+        android:textSize="14sp"
+        android:text="Toyota Stadium - FC Dallas"
+        android:layout_below="@+id/railroad"
+        android:layout_alignStart="@+id/railroad" />
+
+    <Button
+        android:id="@+id/utDallas"
+        android:layout_width="fill_parent"
+        android:gravity="left|center_vertical"
+        android:layout_height="36sp"
+        android:text="University of Texas Dallas"
+        android:textSize="14sp"
+        android:layout_below="@+id/fcDallas"
+        android:layout_alignStart="@+id/fcDallas" />
+
+
+</RelativeLayout>
+

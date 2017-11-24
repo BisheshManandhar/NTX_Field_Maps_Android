@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.something.bishe.ntx_field_maps_android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ntx_logo_icon"
+        android:label="NTX Soccer Field Maps"
+        android:roundIcon="@mipmap/ntx_logo_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".wisemen" />
+        <activity android:name=".carpenter" />
+        <activity android:name=".chinnchapel" />
+        <activity android:name=".mcInnish" />
+        <activity android:name=".richland" />
+        <activity android:name=".russellcreek" />
+        <activity android:name=".moneygram" />
+        <activity android:name=".fivestar" />
+        <activity android:name=".pitplus" />
+        <activity android:name=".railroad" />
+        <activity android:name=".fcdallas" />
+        <activity android:name=".utdallas"></activity>
+    </application>
+
+</manifest>
